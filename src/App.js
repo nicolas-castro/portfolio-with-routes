@@ -23,7 +23,6 @@ class App extends Component {
           <Route path='/experience' component={Experience}/>
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/projects/:id" component={ProjectDetails} />
-
         </Switch>
       </div>
     );
